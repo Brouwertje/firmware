@@ -49,13 +49,6 @@ microphone:
     adc_type: external
     pdm: true
 
-speaker:
-  - platform: i2s_audio
-    id: echo_speaker
-    i2s_dout_pin: GPIO22
-    dac_type: external
-    mode: mono
-
 voice_assistant:
   id: va
   microphone: echo_microphone
